@@ -48,6 +48,6 @@ end
 group :production do
   #Postgress for use with heroku
   gem 'pg'
-  #rails_l2factor for heroku
-  gem 'rails_l2factor'
+  #rails_12factor for heroku
+  gem 'rails_12factor'
 end
