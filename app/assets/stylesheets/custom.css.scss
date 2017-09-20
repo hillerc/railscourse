@@ -1,2 +1,68 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+html {
+  height: 100%;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+body{
+    background: #2bb0cb; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #2bb0cb 0%, #031f49 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #2bb0cb 0%,#031f49 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #2bb0cb 0%,#031f49 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-repeat: no-repeat;
+    color: #efefef;
+    font-family: calibri;
+    font-weight: 100;
+}
+
+#get-started-btn {
+    font-size: 18pt;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(16,16,16,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(16,16,16,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
